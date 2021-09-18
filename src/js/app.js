@@ -6,5 +6,6 @@ window.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector(".button");
   button.addEventListener("click", () => {
     alert("💣");
+    console.log(document.body.style.fontFamily);
   });
 });
